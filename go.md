@@ -299,6 +299,15 @@ love:
 	learnInterfaces() // Good stuff coming up!
 }
 
+func learn_strings.builder() {
+
+	var strBuilder strings.Builder
+	for i := range strSlice{
+		strBuilder.WriteString(strSlice[i])
+	}
+	var catStr = strBuilder.String()
+}
+
 func learnFunctionFactory() {
 	// Next two are equivalent, with second being more practical
 	fmt.Println(sentenceFactory("summer")("A beautiful", "day!"))
