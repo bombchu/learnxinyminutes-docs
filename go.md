@@ -300,6 +300,7 @@ love:
 }
 
 func learn_strings.builder() {
+	var strSlice = []string{"w","o","r","d"}
 
 	var strBuilder strings.Builder
 	for i := range strSlice{
