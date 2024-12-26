@@ -155,6 +155,7 @@ can include line breaks.` // Same string type.
 	if val, ok := m["one"]; ok {
 		// Do something
 	}
+        delete(m, "one")
 
 	// Unused variables are an error in Go.
 	// The underscore lets you "use" a variable but discard its value.
